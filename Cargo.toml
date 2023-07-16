@@ -1,0 +1,11 @@
+[package]
+authors = ["EBSmash <https://github.com/EBSmash" , "zegevlier <iamascratcher@gmail.com>", "mazkdevf <https://github.com/mazk5145>"]
+edition = "2021"
+name = "keyauth-loader"
+version = "1.0.0"
+
+[dependencies]
+keyauth = "1.2.0"
+#keyauth = { version = "1.0.3", features = ["seller", "v1_1], default-features = false }
+obfstr = "0.3.0" # sting only obfuscation
+#goldberg = "0.1.0" # for obfuscation
